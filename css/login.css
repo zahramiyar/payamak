@@ -1,0 +1,327 @@
+.main_header_right_img{width:175px;height: 80px;background-size: cover;font-family: "B Koodak";}
+.main_header_middle .nav-link{font-size: 12pt;font-family: "B Yekan";color: black;margin-right: 10px}
+.main_header_middle .on{color: #0a58ca}
+.main_header_middle .nav-link:hover{color: #0a58ca}
+.main_header_middle{line-height: 36px;}
+.navbar-nav{padding-right: 159px;}
+.icon_cart{display: inline-block;line-height: 71px;float: right;cursor: pointer; color: black}
+.blue{border-radius: 50%;display: block;width: 13px;height: 13px;background-color:#2f55d4;font-family: "B Yekan";font-size: 9px;color: white; position: absolute;right: 12px;top: 20px;line-height: 11px}
+.cart a i{display: block;font-size: 21px;margin-left: 5px}
+.cart a:hover *{color:rgb(194 194 200);}
+.value{float: right;font-family: "B Yekan";font-size: 11pt;line-height: 71px;color: black;cursor: pointer}
+.currency{float: right;font-family: "B Yekan";font-size: 11pt;line-height: 71px;color: black;cursor: pointer}
+.Comparison{font-family: "B Yekan";font-size: 14pt;line-height: 78px;color: black;cursor: pointer ;}
+.Comparison a i{color: black;}
+.Comparison a i .blue{right: 14px;top: -3px;line-height: 13px}
+.Comparison a i:hover{color:rgb(194 194 200);}
+.Account a span{font-family: "B Yekan";font-size: 11pt;line-height: 71px;float: left;display: block;color: black;cursor: pointer}
+.Account a span:hover{color:rgb(194 194 200);}
+
+
+/*cart_left_menu*/
+.icon-cart-left{color: #ededed;text-align: center;display: block;font-size: 104px}
+.empty_cart_left{text-align: center;font-family: "B Yekan"; font-size: 17px;padding-bottom: 15px}
+.go_shop_left{width: 121px;height:36px;color: white;font-size: 13px ;font-family: "B Yekan";background-color: rgb(231 76 60);border: 2px solid rgb(231 76 60); border-radius: 30px}
+.go_shop_left:hover{    background-color: rgb(235 105 92);border: 2px solid rgb(235 105 92);}
+
+
+
+/*mobile Register*/
+.Register_lft_menu{transition: opacity 600ms;z-index: 100000000;opacity: 0;visibility: hidden;background-color: rgb(27 25 25 / 70%);}
+.register-bg{width: 303px;left: 0;z-index: 1000000;transition: left 600ms}
+.title_register_left{font-family: "B Yekan";font-size: 20px;color: black; text-align: right;font-weight: 600}
+.heading{padding: 20px 15px}
+.closemenu{font-family: "B Yekan";font-size: 17px;color: black; text-align: left;text-decoration: none;float: left}
+.closemenu i{left: 37px;bottom: -8px;font-size: 23px}
+.bordr_eee{width: 100% ;border-bottom: 1px solid #e4e4e4}
+.email_set_rl{font-family: "B Yekan";font-size: 17px;display: block;}
+.redster{color: red}
+.loginn{margin: 40px 0 30px}
+.input-email_rl{padding:  10px 0px}
+.email_input_rl{height: 40px !important;border: 2px solid #d9d9d9;color: #6c6d6e;font-family: "B Yekan";font-size: 17px}
+.btn-log_rl{padding: 30px 0px}
+input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
+::placeholder{color: #d9d9d9;font-size: 17px}
+.register_login_rl{height: 43px;border-radius: 20px;border: 2px solid rgb(230 74 58 / 89%);background-color:  rgb(230 74 58 / 89%);color: white;font-family: "B Yekan";font-size: 17px;text-align: center}
+.register_login_rl:hover{background-color: red;border: 2px solid red}
+.icon_pass_rl{    top: 19px;right: 256px;}
+.remember_rl{color: #979393;font-family: "B Yekan";font-size: 16px;}
+.psw_rl{color:#0a53be;font-family: "B Yekan";font-size: 16px;}
+.apas_rl{text-decoration: none;    display: block;padding-top: 16px;}
+.apas_rl:hover{text-decoration: underline}
+.create-account-question{padding: 20px 15px;border-bottom: 1px solid var(--brdcolor-gray-300);text-align: center;--wd-tags-mb: 15px;}
+.create-account{font-size: 70px ;color: #9b9696}
+.create-account-question p{font-family: "B Yekan";font-size: 16px;font-weight: 600;color: #242424;}
+.create-account-button{font-family: "B Yekan";font-size: 16px;text-decoration:none}
+.create-account-button:hover{color: #9b9696}
+.show_register{opacity: 1; visibility: visible;}
+
+
+/*mobile*/
+.menu-right-sm{width: 30px;height: 30px;font-size: 30pt;color: #5d5a5a ;}
+.mobile-menu-box{left: -300px;width: 300px;z-index: 1000000;transition: left 600ms}
+.mobile-menu-back{z-index: 1000000; opacity: 0; transition: opacity 600ms; visibility: hidden}
+.show{opacity: 1; visibility: visible;}
+.show2{left: 0}
+.form-control{height: 88px;font-size: 23px !important;font-family: "B Yekan";}
+.search-icon{font-size: 28px;color: #b5b5b5;    top: 21px;right: 259px;}
+.list-mobile{width: 100%;height: 55px;background-color: #efefef}
+.btnlist{font-size: 20px;font-family: "B Yekan" ;color: #9b9696 ;text-align: center;line-height: 50px}
+.active1,.btnlist:hover{color: black ;background-color: #c5c6c7;border-bottom: 3px solid #0a58ca;}
+.list-open-Grouping{margin: 0;padding: 0}
+.item-open-Grouping{list-style: none;border-bottom: 2px solid #efefef;padding: 12px 12px 12px 0}
+.item-open-Grouping a{font-size: 16px;font-family: "B Yekan" ;display: block;color: black ;text-decoration: none;}
+.list-navbar-open{margin: 0;padding: 0;display: none}
+.item-open{list-style: none;border-bottom: 2px solid #efefef;padding: 12px 12px 12px 0}
+.item-open a{font-size: 16px;font-family: "B Yekan" ;display: block;color: black ;text-decoration: none;}
+.list-open{margin: 0;padding: 0}
+.opens{ display: block }
+.Grouping-open{ display: none}
+.opens-group{ display: block}
+
+
+
+
+/*footer*/
+.footer{background-color: rgba(25, 26, 28, 1);}
+.caption-footer{color: white;font-family: "B Yekan";font-size: 17px;padding: 9px;padding: 10px 0px 10px 0px;text-align: justify}
+.title-li{color: white;font-family: "B Yekan";font-size: 17px;padding-bottom: 15px;    padding-top: 27px;}
+.wrapper li{list-style: none;color: white;font-family: "B Yekan";font-size: 15px;cursor: pointer;padding: 10px 0}
+.wrapper li a{text-decoration: none}
+.wrapper li a:hover{text-decoration: underline}
+.wrapper{padding: 5px 2px }
+.part-footer{padding: 50px 0}
+.logo-footer{width: 177px;height: 74px}
+.title-symbol{color: white;font-family: "B Yekan";font-size: 17px;padding-bottom: 20px}
+.symbol-pic{width: 150px;height: 150px}
+.footer-top{padding: 0 85px;}
+.symbol-cap{    padding: 20px 42px;color: white;font-family: "B Yekan";font-size: 15px;}
+.footer_secend{padding-top: 40px}
+.media-icon i {    color: rgba(255, 255, 255, 0.58);font-size:20px;padding: 0px 12.5px 20px 12.5px }
+.media-icon{padding-bottom: 30px}
+.end-text{ color: rgba(255, 255, 255, 0.58);font-size:15px;;font-family: "B Yekan" ;text-align: center;padding-bottom: 4px}
+.instagram:hover{color: #e62fff}
+.telegram:hover{color: #6eafff}
+.whatsapp:hover{color: #28ff75}
+
+/*top scroll*/
+#myBtn{position: fixed;border: 0px solid #ffff;;left: 70px; cursor: pointer;bottom: 20px;z-index: 350;width: 50px;height: 50px;border-radius: 50%;background-color: rgba(255,255,255,0.9);box-shadow: 0 0 30px rgba(0,0,0,0.26);color: #333;text-align: center;display: none;transform: translateX(-100%);}
+#myBtn i{color: #333;text-align: center;font-size: 35px}
+
+
+/*end navbar*/
+.end-navbar{position: fixed;z-index: 350;background-color: #fff;box-shadow: 0 0 9px rgba(0,0,0,0.12);bottom: 0;width: 100%}
+.end-description{font-size: 11px;font-family: "B Yekan";color: black;padding-bottom: 5px}
+.end-icon{font-size: 20px;padding-bottom: 25px;padding-top: 5px;position: relative}
+.end-icon span{display: block;position: absolute;width: 15px;height: 15px;border-radius: 50%;background-color: #0a58ca;color: white;font-size: 5px;top: 7px;right: 13px;line-height: 13px;}
+
+
+
+
+/*header*/
+.header-top{background-color: black;color: white;height: 172px;}
+.header-top span{font-family: "B Koodak";text-align: center;font-size: 52px;padding-top: 128px;display: block}
+.header_caption{text-align: center;padding-bottom: 40px}
+.cop_header {font-family: "B Koodak";text-align: center;font-size: 15px;text-decoration: none}
+
+
+/*Membership*/
+
+.Register_right h4{font-family: "B Yekan";font-size: 24px;display: block;font-weight: 700;}
+.email_set{font-family: "B Yekan";font-size: 17px;display: block;}
+.registerster{font-size: 20px;color: red;font-weight: 700}
+.email_input{height: 41px;border: 2px solid #d9d9d9;color: #6c6d6e;font-family: "B Yekan";font-size: 17px}
+input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
+::placeholder{color: #d9d9d9;font-size: 17px}
+.a_pro{color: #0a53be;font-family: "B Yekan";font-size: 17px;text-decoration: none}
+.register_login{height: 43px;border-radius: 20px;border: 2px solid rgb(230 74 58 / 89%);background-color:  rgb(230 74 58 / 89%);color: white;font-family: "B Yekan";font-size: 17px;text-align: center}
+.register_login:hover{background-color: red;border: 2px solid red}
+.borderleft{border-left: 1px solid #f0f0f0}
+.Register_left h4{;font-size: 24px;display: block;font-weight: 700;text-align: center;padding: 20px}
+.Register_left_cap{color: #979393;font-family: "B Yekan";font-size: 16px;line-height: 24px}
+.login_left{height: 43px;padding-bottom;border-radius: 20px;border: 2px solid rgb(180 166 164 / 89%);background-color:  rgb(180 166 164 / 89%);color: white;font-family: "B Yekan";font-size: 17px;text-align: center}
+.login_left:hover{background-color: rgb(111 101 99 / 89%);border: 2px solid rgb(111 101 99 / 89%);}
+.icon_pass{color:#a6a1a1;font-size: 17px;    top: 18px;left: 33px;}
+.remember{color: #979393;font-family: "B Yekan";font-size: 16px;}
+.psw{color:#0a53be;font-family: "B Yekan";font-size: 16px;}
+.apas{text-decoration: none}
+.apas:hover{text-decoration: underline}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
+  .page-news{margin: 15px 45px !important;}
+  .header-top{margin-top:1px;margin-bottom: 60px}
+  .login{margin: 0 83px!important;}
+  .btn-login{padding: 10px 20px;}
+  .Register_right h4{padding: 20px}
+  .email_set{padding:  10px 20px;}
+  .input-email{padding:  10px 20px;}
+  .btn-log{padding: 30px 20px;}
+  .Register_left_cap{padding:  12px 1px 40px;text-align: center}
+  .Membership{margin: 40px 183px;}
+  .remember{padding: 0 20px}
+  .psw{padding-right: 83px;}
+
+
+
+}
+@media (max-width: 991px){
+  .login{margin: 0 0px!important;}
+  .btn-login{padding: 10px 1px;}
+  .Register_right h4{padding: 20px 1px}
+  .email_set{padding:  10px 1px;}
+  .input-email{padding:  10px 1px;}
+  .btn-log{padding: 30px 1px 15px;}
+  .Register_left_cap{padding:  19px 1px;text-align: justify}
+  .Membership{margin:  0px 0px 80px }
+  .remember{padding: 0 10px 65px}
+  .psw{padding-right: 20px}
+}
+@media (max-width: 767px){
+  .login{margin: 0 0px!important;}
+  .btn-login{padding: 10px 1px;}
+  .Register_right h4{padding: 20px 1px}
+  .email_set{padding:  10px 1px;}
+  .input-email{padding:  10px 1px;}
+  .btn-log{padding: 30px 1px 15px;}
+  .Register_left_cap{padding:  19px 1px;text-align: justify}
+  .Membership{margin:  0px 0px 80px }
+  .remember{padding: 0 10px 65px}
+  .psw{padding-right: 20px}
+}
+@media (max-width: 575px) {
+  .cart a i{padding-right: 62px}
+  .blue{right: 77px;top: 13px}
+  .main_header_right_img{width:108px;height: 53px;}
+  .icon_cart{line-height: 54px}
+  .value{line-height: 54px}
+  .currency{line-height: 56px}
+
+  .part-footer {padding: 0}
+  .footer-top{padding: 0}
+  .symbol-cap {padding: 21px 89px;}
+  #myBtn{width: 40px;height: 40px;  bottom: 76px;left: 54px;}
+  #myBtn i{position: absolute;top: -5px;left: 3px}
+  .footer{padding-bottom: 70px;}
+  .header-top{margin-top: 55px;margin-bottom: 60px}
+  .login{margin: 0 0px!important;}
+  .btn-login{padding: 10px 1px;}
+  .Register_right h4{padding: 20px 1px}
+  .email_set{padding:  10px 1px;}
+  .input-email{padding:  10px 1px;}
+  .btn-log{padding: 30px 1px 15px;}
+  .Register_left_cap{padding:  19px 1px;text-align: justify}
+  .Membership{margin: 0px 0px 80px}
+  .remember{padding: 0 10px 65px}
+  .Register_right{padding: 0}
+  .Register_left{padding: 0}
+  .psw{padding-right: 20px}
+
+}
+
+
+
+
+.reveal {position: relative;opacity: 0;}
+.reveal.active {opacity: 1;}
+.active.fade-zoom {animation: fade-zoom  555ms linear;}
+.active.fade-Rotation {animation: fade-Rotation  1s linear;}
+.active.fade-top {animation: fade-top 555ms linear;}
+.active.fade-bottom {animation: fade-bottom 555ms linear;}
+.active.fade-left {animation: fade-left 555ms linear;}
+.active.fade-right {animation: fade-right 555ms linear;}
+@keyframes fade-zoom  {
+  0% {
+
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-Rotation  {
+  0% {
+
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

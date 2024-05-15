@@ -1,0 +1,344 @@
+.main_header_right_img{width:175px;height: 80px;background-size: cover;font-family: "B Koodak";}
+.main_header_middle .nav-link{font-size: 12pt;font-family: "B Yekan";color: black;margin-right: 10px}
+.main_header_middle .on{color: #0a58ca}
+.main_header_middle .nav-link:hover{color: #0a58ca}
+.main_header_middle{line-height: 36px;}
+.navbar-nav{padding-right: 159px;}
+.icon_cart{display: inline-block;line-height: 71px;float: right;cursor: pointer; color: black}
+.blue{border-radius: 50%;display: block;width: 13px;height: 13px;background-color:#2f55d4;font-family: "B Yekan";font-size: 9px;color: white; position: absolute;right: 12px;top: 20px;line-height: 11px}
+.cart a i{display: block;font-size: 21px;margin-left: 5px}
+.cart a:hover *{color:rgb(194 194 200);}
+.value{float: right;font-family: "B Yekan";font-size: 11pt;line-height: 71px;color: black;cursor: pointer}
+.currency{float: right;font-family: "B Yekan";font-size: 11pt;line-height: 71px;color: black;cursor: pointer}
+.Comparison{font-family: "B Yekan";font-size: 14pt;line-height: 78px;color: black;cursor: pointer ;}
+.Comparison a i{color: black;}
+.Comparison a i .blue{right: 14px;top: -3px;line-height: 13px}
+.Comparison a i:hover{color:rgb(194 194 200);}
+.Account a span{font-family: "B Yekan";font-size: 11pt;line-height: 71px;float: left;display: block;color: black;cursor: pointer}
+.Account a span:hover{color:rgb(194 194 200);}
+
+
+
+
+
+
+
+
+/*cart_left_menu*/
+.icon-cart-left{color: #ededed;text-align: center;display: block;font-size: 104px}
+.empty_cart_left{text-align: center;font-family: "B Yekan"; font-size: 17px;padding-bottom: 15px}
+.go_shop_left{width: 121px;height:36px;color: white;font-size: 13px ;font-family: "B Yekan";background-color: rgb(231 76 60);border: 2px solid rgb(231 76 60); border-radius: 30px}
+.go_shop_left:hover{    background-color: rgb(235 105 92);border: 2px solid rgb(235 105 92);}
+
+
+
+/*mobile Register*/
+.Register_lft_menu{transition: opacity 600ms;z-index: 1000000;opacity: 0;visibility: hidden;background-color: rgb(27 25 25 / 70%);}
+.register-bg{width: 303px;left: 0;z-index: 1000000;transition: left 600ms}
+.title_register_left{font-family: "B Yekan";font-size: 20px;color: black; text-align: right;font-weight: 600}
+.heading{padding: 20px 15px}
+.closemenu{font-family: "B Yekan";font-size: 17px;color: black; text-align: left;text-decoration: none;float: left}
+.closemenu i{left: 37px;bottom: -8px;font-size: 23px}
+.bordr_eee{width: 100% ;border-bottom: 1px solid #e4e4e4}
+.email_set_rl{font-family: "B Yekan";font-size: 17px;display: block;}
+.redster{color: red}
+.loginn{margin: 40px 0 30px}
+.input-email_rl{padding:  10px 0px}
+.email_input_rl{height: 40px !important;border: 2px solid #d9d9d9;color: #6c6d6e;font-family: "B Yekan";font-size: 17px}
+.btn-log_rl{padding: 30px 0px}
+input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
+::placeholder{color: #d9d9d9;font-size: 17px}
+.register_login_rl{height: 43px;border-radius: 20px;border: 2px solid rgb(230 74 58 / 89%);background-color:  rgb(230 74 58 / 89%);color: white;font-family: "B Yekan";font-size: 17px;text-align: center}
+.register_login_rl:hover{background-color: red;border: 2px solid red}
+.icon_pass_rl{    top: 19px;right: 256px;}
+.remember_rl{color: #979393;font-family: "B Yekan";font-size: 16px;}
+.psw_rl{color:#0a53be;font-family: "B Yekan";font-size: 16px;}
+.apas_rl{text-decoration: none;    display: block;padding-top: 16px;}
+.apas_rl:hover{text-decoration: underline}
+.create-account-question{padding: 20px 15px;border-bottom: 1px solid var(--brdcolor-gray-300);text-align: center;--wd-tags-mb: 15px;}
+.create-account{font-size: 70px ;color: #9b9696}
+.create-account-question p{font-family: "B Yekan";font-size: 16px;font-weight: 600;color: #242424;}
+.create-account-button{font-family: "B Yekan";font-size: 16px;text-decoration:none}
+.create-account-button:hover{color: #9b9696}
+.show_register{opacity: 1; visibility: visible;}
+
+/*mobile*/
+.menu-right-sm{width: 30px;height: 30px;font-size: 30pt;color: #5d5a5a ;}
+.mobile-menu-box{left: -300px;width: 300px;z-index: 1000000;transition: left 600ms}
+.mobile-menu-back{z-index: 1000000; opacity: 0; transition: opacity 600ms; visibility: hidden}
+.show{opacity: 1; visibility: visible;}
+.show2{left: 0}
+.form-control{height: 88px;font-size: 23px !important;font-family: "B Yekan";}
+.search-icon{font-size: 28px;color: #b5b5b5;    top: 21px;right: 259px;}
+.list-mobile{width: 100%;height: 55px;background-color: #efefef}
+.btnlist{font-size: 20px;font-family: "B Yekan" ;color: #9b9696 ;text-align: center;line-height: 50px}
+.active1,.btnlist:hover{color: black ;background-color: #c5c6c7;border-bottom: 3px solid #0a58ca;}
+.list-open-Grouping{margin: 0;padding: 0}
+.item-open-Grouping{list-style: none;border-bottom: 2px solid #efefef;padding: 12px 12px 12px 0}
+.item-open-Grouping a{font-size: 16px;font-family: "B Yekan" ;display: block;color: black ;text-decoration: none;}
+.list-navbar-open{margin: 0;padding: 0;display: none}
+.item-open{list-style: none;border-bottom: 2px solid #efefef;padding: 12px 12px 12px 0}
+.item-open a{font-size: 16px;font-family: "B Yekan" ;display: block;color: black ;text-decoration: none;}
+.list-open{margin: 0;padding: 0}
+.opens{ display: block }
+.Grouping-open{ display: none}
+.opens-group{ display: block}
+
+
+
+
+/*footer*/
+.footer{background-color: rgba(25, 26, 28, 1);}
+.caption-footer{color: white;font-family: "B Yekan";font-size: 17px;padding: 9px;padding: 10px 0px 10px 0px;text-align: justify}
+.title-li{color: white;font-family: "B Yekan";font-size: 17px;padding-bottom: 15px;    padding-top: 27px;}
+.wrapper li{list-style: none;color: white;font-family: "B Yekan";font-size: 15px;cursor: pointer;padding: 10px 0}
+.wrapper li a{text-decoration: none}
+.wrapper li a:hover{text-decoration: underline}
+.wrapper{padding: 5px 2px }
+.part-footer{padding: 50px 0}
+.logo-footer{width: 177px;height: 74px}
+.title-symbol{color: white;font-family: "B Yekan";font-size: 17px;padding-bottom: 20px}
+.symbol-pic{width: 150px;height: 150px}
+.footer-top{padding: 0 85px;}
+.symbol-cap{    padding: 20px 42px;color: white;font-family: "B Yekan";font-size: 15px;}
+.footer_secend{padding-top: 40px}
+.media-icon i {    color: rgba(255, 255, 255, 0.58);font-size:20px;padding: 0px 12.5px 20px 12.5px }
+.media-icon{padding-bottom: 30px}
+.end-text{ color: rgba(255, 255, 255, 0.58);font-size:15px;;font-family: "B Yekan" ;text-align: center;padding-bottom: 4px}
+.instagram:hover{color: #e62fff}
+.telegram:hover{color: #6eafff}
+.whatsapp:hover{color: #28ff75}
+
+/*top scroll*/
+#myBtn{position: fixed;border: 0px solid #ffff;;left: 70px; cursor: pointer;bottom: 20px;z-index: 350;width: 50px;height: 50px;border-radius: 50%;background-color: rgba(255,255,255,0.9);box-shadow: 0 0 30px rgba(0,0,0,0.26);color: #333;text-align: center;display: none;transform: translateX(-100%);}
+#myBtn i{color: #333;text-align: center;font-size: 35px}
+
+
+/*end navbar*/
+.end-navbar{position: fixed;z-index: 350;background-color: #fff;box-shadow: 0 0 9px rgba(0,0,0,0.12);bottom: 0;width: 100%}
+.end-description{font-size: 11px;font-family: "B Yekan";color: black;padding-bottom: 5px}
+.end-icon{font-size: 20px;padding-bottom: 25px;padding-top: 5px;position: relative}
+.end-icon span{display: block;position: absolute;width: 15px;height: 15px;border-radius: 50%;background-color: #0a58ca;color: white;font-size: 5px;top: 7px;right: 13px;line-height: 13px;}
+
+
+
+
+/*header*/
+.header-mid-text{font-size: 36px;font-family: "B Yekan";text-align: center;color: #6a6a6a;}
+.header{padding-top: 180px;padding-bottom: 40px}
+.header i{display: block;font-size: 45px;text-align: center;margin: 10px 0px 10px 0px;color: rgba(10, 203, 135, 1);}
+.header i:hover{color: #0a58ca}
+.bi-cursor-fill {transform: scaleX(-1);-moz-transform: scaleX(-1);-webkit-transform: scaleX(-1);-ms-transform: scaleX(-1);}
+.header-cap{color: #6a6a6a;text-align: right;font-size: 16px;padding: 0 46px;line-height: 29px;text-align: justify}
+
+
+
+/*discount*/
+.discount{border-radius: 20px;border: 0px solid transparent;padding: 35px 15px ;background-color: #f9f8fd}
+.discount-cap{ color: rgb(111 110 110);font-family: "B Yekan";line-height: 29px;   font-size: 17px;padding: 0 29px;}
+.discount-header{color: rgb(47 85 212);font-size: 32px;line-height: 1.4;font-weight: 700;letter-spacing: 0px;font-family: "B Yekan";}
+.clock{ text-align: center;font-size:32px;margin-top: 0px;direction: ltr;color: rgba(228, 13, 99, 0.75);font-family: "B Yekan"}
+.discount-text{text-align: justify}
+
+
+/*package*/
+.text-didar{border-radius: 20px;font-family: "B Yekan";background-color: #0a58ca; font-weight: 700;color: white ;text-align: center;margin: 20px 0px;box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);border: 0px solid rgba(102, 115, 141, 0);}
+.text-didar span{margin: 5px;font-size: 35px;padding: 67px 0}
+.price-didar{background-color: rgba(240, 243, 253, 0.9);font-family: "B Yekan";border-radius: 20px;margin:20px 0px;box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);border: 0px solid rgba(102, 115, 141, 0);}
+.name-package{font-size: 22px ;font-weight: 700;color: #0a58ca;padding: 10px 2px;}
+.price-package{font-weight: 500;font-size: 21px ;text-align: center; padding:  20px 20px;}
+.btn-registration{background-color: #0a58ca ;border-radius: 15px; text-align: center;border: 2px solid #0a58ca;width: 90px;height: 35px;color: white;font-weight: 200;font-size: 17px}
+.btn-didar{padding: 20px 0}
+.btn-registration:hover{background-color: rgb(11 201 134 / 99%);border: 2px solid rgb(11 201 134 / 99%)}
+.package-full{margin: 45px 0}
+
+
+
+/*table*/
+.table-xx{color: rgb(108 108 108) !important;font-family: "B Yekan";font-size: 22px ;font-weight: 600;text-align: center}
+.table tr td{font-family: "B Yekan";font-size: 17px;color: rgb(108 108 108);text-align: center;padding: 30px 15px;}
+.table tr{ }
+.table-yy{color: rgb(108 108 108)!important;font-family: "B Yekan";font-size: 18px ;font-weight:bold;text-align: center;    padding: 35px 2px !important;}
+.check-table{color: rgb(9 203 135);font-size: 21px ;font-weight: 700}
+.check-table:hover{color: rgb(46 84 211);}
+.xx-table{ color: rgba(203, 10, 13, 1);font-size: 17px ;font-weight: 700}
+.xx-table:hover{color: rgb(46 84 211);}
+
+/*Warranty*/
+.Warranty{background-color: #2f55d4 ;border-radius: 20px; border: solid 1px #2f55d4;font-family: "B Yekan"}
+.Warranty_header h5{color: white ; text-align: center;font-family: "B Yekan";font-weight: 700;padding-top: 47px}
+.Warranty i{display: block;font-size:33px;text-align: center;margin: 10px 0px 10px 0px;color: rgba(10, 203, 135, 1);}
+.Warranty i:hover{color: #0a58ca}
+.warranty_cop{ ;color: white;font-family: "B Yekan"; text-align: justify;font-size: 17px}
+.warranty_cop span{line-height: 31px;display: block}
+
+.btn-price-warranty{margin-left: 5px;margin-bottom: 15px;height: 45px; font-size: 17px; width: 178px;font-family: "B Yekan";color:#ffffff ;border-radius: 10px ;border: solid 2px #ffffff;text-align: center;background-color: #0a58ca}
+.btn-shoping-warranty{height: 45px; margin-bottom: 15px;font-size: 17px; width: 160px;font-family: "B Yekan";color:#ffffff ;border-radius: 10px ;border: solid 2px #ffffff;text-align: center;background-color: #0a58ca}
+.warranty_btn{padding: 2px 0px 35px 0;}
+.btn-price-warranty:hover{background-color: rgb(165 186 255);border: solid 2px rgb(165 186 255);}
+.btn-shoping-warranty:hover{background-color: rgb(165 186 255);border: solid 2px rgb(165 186 255);}
+.btn-lft{text-align: left}
+
+
+
+
+
+
+
+
+
+/*questions*/
+.questions i{display: block;font-size:33px;text-align: center;margin: 10px 0px 10px 0px;color: rgba(10, 203, 135, 1);}
+.questions i:hover{color: #0a58ca}
+.questions{margin-top: 100px}
+.questions_box{border-radius: 20px;background-color:  rgb(250 249 255);cursor: pointer}
+.questions_text{font-size: 20px;text-align: right;font-family: "B Yekan";color: rgb(75 74 76);padding: 15px;font-weight: bold}
+.questions_text_hidden{font-size: 18px;text-align: left;font-family: "B Yekan";   color: rgb(168, 168, 168) ;padding: 15px;font-weight: bold;display: block }
+.accordion{margin-bottom: 80px;}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
+  .discount-text{padding: 0 61px}
+  .package-full{margin: 45px 168px}
+  .Warranty-service{margin: 10px 135px}
+  .warranty_cop{margin: 18px 73px }
+  .warranty_cop span{line-height: 31px;}
+  .btn-lft{text-align: left}
+  .Warranty_header h5{font-size: 24px}
+.questions_box{margin: 11px 52px;}
+
+
+}
+@media (max-width: 991px){
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 575px) {
+  .cart a i{padding-right: 62px}
+  .blue{right: 77px;top: 13px}
+  .main_header_right_img{width:108px;height: 53px;}
+  .icon_cart{line-height: 54px}
+  .value{line-height: 54px}
+  .currency{line-height: 56px}
+
+  .part-footer {padding: 0}
+  .footer-top{padding: 0}
+  .symbol-cap {padding: 21px 89px;}
+  #myBtn{width: 40px;height: 40px;  bottom: 76px;left: 54px;}
+  #myBtn i{position: absolute;top: -5px;left: 3px}
+  .footer{padding-bottom: 70px;}
+  .header-cap{padding: 0 2px;font-size: 15px}
+.header-mid-text{font-size: 24px; padding: 0 35px}
+.c1{padding: 0}
+.discount-text{padding: 40px 0px}
+.discount-header{font-weight:100;font-size: 26px}
+.clock{font-size: 40px}
+  .Warranty-service{margin: 45px 0px}
+  .package-full{margin: 45px 0px}
+  .warranty_cop{margin: 12px 20px}
+  .warranty_cop span{line-height: 24px;}
+  .btn-lft{text-align: center}
+  .btn-rght{text-align: center}
+  .Warranty_header h5{font-size: 19px}
+  .questions_box{    margin: 10px 5px}
+
+
+
+
+
+
+}
+
+
+
+
+.reveal {position: relative;opacity: 0;}
+.reveal.active {opacity: 1;}
+.active.fade-zoom {animation: fade-zoom  555ms linear;}
+.active.fade-Rotation {animation: fade-Rotation  1s linear;}
+.active.fade-top {animation: fade-top 555ms linear;}
+.active.fade-bottom {animation: fade-bottom 555ms linear;}
+.active.fade-left {animation: fade-left 555ms linear;}
+.active.fade-right {animation: fade-right 555ms linear;}
+@keyframes fade-zoom  {
+  0% {
+
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-Rotation  {
+  0% {
+
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+
+  100% {
+
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

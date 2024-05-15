@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fa" dir="rtl" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تماس با ما</title>
+  <link rel="stylesheet" href="css/contactus.css">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+  <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+<div class="main_header fixed-top  w-100 shadow-sm bg-white rounded m-0">
+  <div class="container" style="    max-width: 1438px;">
+    <div class="row">
+
+
+
+      <div class="col-lg-2 col-6 col-sm-6 col-md-6 order-lg-0 order-1" >
+        <div class="main_header_right text-center">
+          <img class="main_header_right_img"  src="img/main_header_right.png"/>
+        </div>
+      </div>
+
+
+      <div class=" col-3 menu-right-sm col-sm-3 col-md-3 order-lg-1 order-0 d-lg-none  d-block" onclick="closemenu()">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="col-lg-8 d-lg-block d-none">
+        <div class="main_header_middle">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">پنل پیامک دیدار</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="about%20us.html">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="blog.html">بلاگ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link on" href="contactus.html">تماس با ما</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-2 col-3 col-sm-3 col-md-3 order-2 order-lg-2">
+        <div class="main_header_left row h-100">
+
+          <div class="col-lg-4 col-sm-12 cart text-center p-0">
+            <a class="d-block w-100 h-100" onclick="opencart()">
+              <i class="bi bi-cart3 icon_cart position-relative"><span class="blue"> 0</span></i>
+
+              <span class="value d-block d-lg-block d-none"> 0</span>
+              <span class="currency d-block d-lg-block d-none">تومان</span>
+            </a>
+          </div>
+
+
+          <div class="col-lg-2 d-lg-block d-none  Comparison  p-0 text-center">
+            <a HREF="Comparison.html" class="d-block"><i class="bi bi-shuffle position-relative"><span class="blue"> 0</span></i></a>
+          </div>
+
+
+          <div class="col-lg-6 d-lg-block d-none Account p-0">
+            <a class="d-block"><span  onclick="openlist()">ورود / ثبت نام</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="cart_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div  class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">سبد خرید</span>
+      <a href="#" class="closemenu position-relative"   onclick="closecart()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <i class="bi bi-cart-x icon-cart-left"></i>
+      <h3 class="empty_cart_left">هیچ محصولی در سبد خرید نیست.</h3>
+
+
+      <div class="text-center btn-shop">
+        <a href="Price.html">
+          <button class="go_shop_left">بازگشت به فروشگاه</button>
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+<div id="Register_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div id="register-bg" class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">ورود</span>
+      <a href="#" class="closemenu position-relative"   onclick="closeRegister()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <div class="login">
+
+                        <span class="d-block email_set_rl">نام کاربری یا آدرس ایمیل
+                          <span class="redster">*</span>
+                         </span>
+
+        <div class="input-email_rl">
+          <input type="email" class="email_input_rl form-control">
+        </div>
+        <span class="d-block email_set_rl">رمز عبور
+                       <span class="redster" >*</span>
+                       </span>
+
+        <div class="input-email_rl position-relative">
+          <input type="password" class="email_input_rl  form-control " name="password" id="password" />
+          <i class="bi bi-eye-slash icon_pass_rl position-absolute" id="togglePassword"></i>
+
+
+        </div>
+
+
+        <div class="btn-log_rl">
+          <button class="register_login_rl w-100">
+            عضویت
+          </button>
+        </div>
+        <label class="remember_rl">
+          <input type="checkbox" checked="checked" name="remember" > مرا به خاطر بسپار
+        </label>
+        <span class="psw_rl"> <a  class="apas_rl" href="lost-password.html" >رمز عبور را فراموش کرده اید؟</a></span>
+
+
+      </div>
+    </div>
+
+    <div class="bordr_eee"></div>
+    <div class="create-account-question">
+      <i class="bi bi-person create-account"></i>
+      <p>هنوز حساب کاربری ندارید؟</p>
+      <a href="user_account.html " class=" create-account-button d-block   ">ایجاد حساب کاربری</a>
+
+    </div>
+
+    <div class="bordr_eee"></div>
+
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+<div id="mobile-menu-back" class="mobile-menu-back bg-secondary position-fixed w-100 h-100 d-flex">
+
+  <div id="mobile-menu-box" class="mobile-menu-box position-fixed h-100 bg-white flex-row">
+    <div class="search-mobil">
+
+      <div class="position-relative">
+        <input class="form-control" type="search" placeholder="جستوجو برای مطالب " aria-label="Search">
+        <i class="bi bi-search position-absolute search-icon"></i>
+      </div>
+
+
+
+
+      <div class="row list-mobile m-0">
+        <div  class="col-6 list-navbar btnlist active1" id="list-navbar" onclick="openlist()" >
+          <a  class="text-decoration-none text-center ">فهرست</a>
+        </div>
+        <div class="col-6 Grouping btnlist" id="Grouping" onclick="openguorp()">
+          <a class="text-decoration-none text-center">دسته بندی ها</a>
+        </div>
+      </div>
+
+      <div class="list-navbar-open w3-animate-opacity opens"  id="list-navbar-open" >
+        <ul class="list-open">
+          <li class="item-open">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open">
+            <a href="blog_p3.html">بلاگ</a>
+          </li>
+
+          <li class="item-open">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+          <li class="item-open">
+            <a href="#">
+              <i class="bi bi-heart"></i>
+              علاقه مندی
+
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="Comparison.html">
+              <i class="bi bi-shuffle"></i>
+
+              مقایسه
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="contactus.html">
+              <i class="bi bi-person"></i>
+              ورود/ثبت نام
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="Grouping-open w3-animate-opacity" id="Grouping-open" >
+        <ul class="list-open-Grouping" >
+          <li class="item-open-Grouping">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open-Grouping">
+            <a href="blog.html">بلاگ</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="flex-row" style="flex-grow: 1" onclick="closemenu()"></div>
+
+</div>
+
+
+
+
+<div class="header  ">
+  <div class="container">
+    <span class="d-block header-mid-text">تماس با ما</span>
+
+    <span class="d-block header-cap">
+      شما هر لحظه از شبانه روز می‌توانید از طریق فرم زیر و یا شماره تماس با ما در ارتباط باشید، پیام شما می‌تواند شروع یک ارتباط و همکاری باشد…
+    </span>
+    <div class="text-center"> <span class="d-inline-block"><i class="bi bi-cursor-fill"></i></span></div>
+
+  </div>
+</div>
+
+<div class="h-100">
+  <div class="container">
+   <div class="form-registration">
+     <div class="mb-3">
+       <input type="name" class="form-control-regstr" id="exampleFormControlInput1" placeholder="نام ونام خانوادگی">
+     </div>
+     <div class="mb-3">
+       <input type="phonenumber" class="form-control-regstr" id="exampleFormControlInput2" placeholder="شماره موبایل">
+     </div>
+     <div class="mb-3">
+
+       <textarea class="form-control-cap" id="exampleFormControlTextarea1"  placeholder="متن"></textarea>
+     </div>
+
+     <div form-btn>
+       <button class="send-pm">ارسال پیام</button>
+     </div>
+
+   </div>
+  </div>
+
+</div>
+
+<div class="social_content">
+  <div class="container">
+    <div class="social_cont ">
+      <div class="social_cont row">
+        <div class="col-lg-6 col-sm-12 col-md-6 ">
+          <div class="right_social reveal fade-right">
+            <i class="bi bi-circle-fill"></i>
+            <span>ما را در شبکه‌های اجتماعی دنبال کنید!</span>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-md-6">
+          <div class="left_social reveal fade-left">
+            <a><i class="bi bi-whatsapp"></i></a>
+            <a><i class="bi bi-instagram"></i></a>
+            <a><i class="bi bi-telegram"></i></a>
+          </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="line-dote">
+  <div class="container">
+    <div class="dashed">
+
+    </div>
+
+  </div>
+</div>
+
+<div class="address">
+  <div class="container">
+    <div class="informtion">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-md-12 telephone_address reveal fade-right">
+          <i class="bi bi-telephone-fill"></i>
+          <span>تلفن تماس: 22222222-021</span>
+        </div>
+        <div class="col-lg-4 col-md-6 col-md-12 telephone_address reveal fade-top">
+          <i class="bi bi-search"></i>
+          <span>آدرس:تهران،خیابان بهار</span>
+        </div>
+        <div class="col-lg-4 col-md-6 col-md-12 telephone_address reveal fade-left">
+          <i class="bi bi-envelope-at-fill"></i>
+          <span>ایمیل:salam@see5.net</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="map reveal fade-zoom">
+  <div class="container">
+    <div class="map-google " id="googleMap">
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="footer">
+
+  <div class="container">
+    <div class="row h-100 footer-top text-center">
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <div class="footer_secend">
+          <img class="logo-footer" src="img/logofooter%20(1).png">
+          <span class="d-block caption-footer" >
+لورم ایپسوم یا طرح‌نما  به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+                    </span>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6  col-md-6 part-footer" >
+                    <span class="d-block title-li">
+                      دسترسی سریع
+                    </span>
+        <ul class="wrapper">
+          <li><a href="contactus.html">راهنمای خرید</a></li>
+          <li><a href="contactus.html">سوالات متداول</a></li>
+          <li><a href="contactus.html">قوانین و مقررات</a></li>
+          <li><a href="contactus.html">سفارش اختصاصی</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6 col-md-6 part-footer" >
+                     <span class="d-block title-li">
+                      دسترسی سریع
+                      </span>
+        <ul class="wrapper">
+          <li><a href="contactus.html">امکانات</a></li>
+          <li><a href="contactus.html">تعرفه ها</a></li>
+          <li><a href="contactus.html">تماس با ما</a></li>
+          <li><a href="contactus.html">درباره ما</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <span class="d-block title-symbol">نشان ها</span>
+        <img class="symbol-pic" src="img/namad.png">
+        <span class="d-block symbol-cap">این نشان فاقد اعتبار بوده
+
+و صرفا جنبه تزئینی دارد.</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="media">
+    <div class="container">
+      <div class="media-icon text-center">
+        <i class="bi bi-instagram instagram"></i>
+        <i class="bi bi-whatsapp whatsapp"></i>
+        <i class="bi bi-telegram telegram"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="end">
+                <span class="d-block end-text">
+                  ساخته شده توسط Z.Miyar
+                </span>
+
+  </div>
+
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short "></i></button>
+
+
+<div class="end-navbar d-lg-none d-md-none w-100;">
+  <div class="container">
+
+    <div class="row  end-nav text-center">
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-shop end-icon">
+
+        </i>
+        <span class="d-block end-description">فروشگاه</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-heart end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">علاقه مندی</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-bag end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">سبد خرید من</span>
+      </div>
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-person end-icon">
+
+        </i>
+        <span class="d-block end-description">حساب کاربری من</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="js/contactus.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fa" dir="rtl" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> امکانات و تعرفه خرید</title>
+  <link rel="stylesheet" href="css/price.css">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+  <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+</head>
+<body>
+<div class="main_header fixed-top  w-100 shadow-sm bg-white rounded m-0">
+  <div class="container" style="    max-width: 1438px;">
+    <div class="row">
+
+
+
+      <div class="col-lg-2 col-6 col-sm-6 col-md-6 order-lg-0 order-1" >
+        <div class="main_header_right text-center">
+          <img class="main_header_right_img"  src="img/main_header_right.png"/>
+        </div>
+      </div>
+
+
+      <div class=" col-3 menu-right-sm col-sm-3 col-md-3 order-lg-1 order-0 d-lg-none  d-block" onclick="closemenu()">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="col-lg-8 d-lg-block d-none">
+        <div class="main_header_middle">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">پنل پیامک دیدار</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link on" href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about%20us.html">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">بلاگ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">تماس با ما</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-2 col-3 col-sm-3 col-md-3 order-2 order-lg-2">
+        <div class="main_header_left row h-100">
+
+          <div class="col-lg-4 col-sm-12 cart text-center p-0">
+            <a href="cart.html" class="d-block w-100 h-100" onclick="opencart()">
+              <i class="bi bi-cart3 icon_cart position-relative"><span class="blue"> 0</span></i>
+
+              <span class="value d-block d-lg-block d-none"> 0</span>
+              <span class="currency d-block d-lg-block d-none">تومان</span>
+            </a>
+          </div>
+
+
+          <div class="col-lg-2 d-lg-block d-none  Comparison  p-0 text-center">
+            <a HREF="Comparison.html" class="d-block"><i class="bi bi-shuffle position-relative"><span class="blue"> 0</span></i></a>
+          </div>
+
+
+          <div class="col-lg-6 d-lg-block d-none Account p-0">
+            <a class="d-block"><span  onclick="openlist()">ورود / ثبت نام</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="cart_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div  class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">سبد خرید</span>
+      <a href="#" class="closemenu position-relative"   onclick="closecart()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <i class="bi bi-cart-x icon-cart-left"></i>
+      <h3 class="empty_cart_left">هیچ محصولی در سبد خرید نیست.</h3>
+
+
+      <div class="text-center btn-shop">
+        <a href="Price.html">
+          <button class="go_shop_left">بازگشت به فروشگاه</button>
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+<div id="Register_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div id="register-bg" class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">ورود</span>
+      <a href="#" class="closemenu position-relative"   onclick="closeRegister()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <div class="loginn">
+
+                        <span class="d-block email_set_rl">نام کاربری یا آدرس ایمیل
+                          <span class="redster">*</span>
+                         </span>
+
+        <div class="input-email_rl">
+          <input type="email" class="email_input_rl form-control">
+        </div>
+        <span class="d-block email_set_rl">رمز عبور
+                       <span class="redster" >*</span>
+                       </span>
+
+        <div class="input-email_rl position-relative">
+          <input type="password" class="email_input_rl  form-control " name="password" id="password" />
+          <i class="bi bi-eye-slash icon_pass_rl position-absolute" id="togglePassword"></i>
+
+
+        </div>
+
+
+        <div class="btn-log_rl">
+          <button class="register_login_rl w-100">
+            عضویت
+          </button>
+        </div>
+        <label class="remember_rl">
+          <input type="checkbox" checked="checked" name="remember" > مرا به خاطر بسپار
+        </label>
+        <span class="psw_rl"> <a  class="apas_rl" href="lost-password.html" >رمز عبور را فراموش کرده اید؟</a></span>
+
+
+      </div>
+    </div>
+
+    <div class="bordr_eee"></div>
+    <div class="create-account-question">
+      <i class="bi bi-person create-account"></i>
+      <p>هنوز حساب کاربری ندارید؟</p>
+      <a href="user_account.html" class=" create-account-button d-block   ">ایجاد حساب کاربری</a>
+
+    </div>
+
+    <div class="bordr_eee"></div>
+
+  </div>
+
+
+
+</div>
+
+
+<div id="mobile-menu-back" class="mobile-menu-back bg-secondary position-fixed w-100 h-100 d-flex">
+
+  <div id="mobile-menu-box" class="mobile-menu-box position-fixed h-100 bg-white flex-row">
+    <div class="search-mobil">
+
+      <div class="position-relative">
+        <input class="form-control" type="search" placeholder="جستوجو برای مطالب " aria-label="Search">
+        <i class="bi bi-search position-absolute search-icon"></i>
+      </div>
+
+
+
+
+      <div class="row list-mobile m-0">
+        <div  class="col-6 list-navbar btnlist active1" id="list-navbar" onclick="openlist()" >
+          <a  class="text-decoration-none text-center ">فهرست</a>
+        </div>
+        <div class="col-6 Grouping btnlist" id="Grouping" onclick="openguorp()">
+          <a class="text-decoration-none text-center">دسته بندی ها</a>
+        </div>
+      </div>
+
+      <div class="list-navbar-open w3-animate-opacity opens"  id="list-navbar-open" >
+        <ul class="list-open">
+          <li class="item-open">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open">
+            <a href="blog.html">بلاگ</a>
+          </li>
+
+          <li class="item-open">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+          <li class="item-open">
+            <a href="#">
+              <i class="bi bi-heart"></i>
+              علاقه مندی
+
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="Comparison.html">
+              <i class="bi bi-shuffle"></i>
+
+              مقایسه
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="user_account.html">
+              <i class="bi bi-person"></i>
+              ورود/ثبت نام
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="Grouping-open w3-animate-opacity" id="Grouping-open" >
+        <ul class="list-open-Grouping" >
+          <li class="item-open-Grouping">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open-Grouping">
+            <a href="blog.html">بلاگ</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="flex-row" style="flex-grow: 1" onclick="closemenu()"></div>
+
+</div>
+
+
+<div class="header  ">
+  <div class="container">
+    <span class="d-block header-mid-text">قیمت پنل اس ام اس و تعرفه خرید پنل پیامکی</span>
+     <div class="text-center"> <span class="d-inline-block"><i class="bi bi-cursor-fill"></i></span></div>
+    <span class="d-block header-cap">
+    در این صفحه می‌توانید قیمت سامانه پیامک، امکانات پنل پیامک، تعرفه ارسال پیامک و… را ملاحظه نمایید و بر اساس نیاز خود پنل اس ام اس را انتخاب و خریداری نمایید. هرچه پنل پیامک حرفه‌ای‌تر را خریداری کنید امکانات بیشتری در اختیار شما قرار داده می شود و تعرفه ارسال پیامک کمتر خواهد بود. از آنجا که هزینه اشتراک را فقط یک مرتبه پرداخت می‌کنید پیشنهاد می‌شود پکیج‌های حرفه‌ای را خریداری کنید تا امکان بیتشری داشته باشید و تعرفه ارسال پیامک شما کمتر باشد.
+  </span>
+    <span class="d-block header-cap">
+   اگر برای خرید سامانه پیامکی سوالی در ذهن شما باقی مانده است لطفا با ما تماس بگیرید. 2222-021
+  </span>
+  </div>
+
+</div>
+
+
+<div class="discount-festival  reveal fade-bottom reveal fade-bottom" >
+  <div class="container p-xl-5" >
+    <div class="row discount w-100 h-100">
+      <div class="col-lg-4 discount-timer">
+        <span class="discount-header d-block text-center">جشنواره تخفیف زمستان</span>
+        <div id="clock" class="clock"></div>
+
+      </div>
+      <div class="col-lg-8 discount-cap">
+        <span class="discount-text d-block">
+
+با استفاده از جشنواره تخفیفی زمستان شما می توانید سامانه پیامک را با قیمت ارزانتر تهیه کنید. به محض خرید پنل پیامکی، نام کاربری و رمز ورود به پنل اس ام اس به موبایل شما ارسال می شود و می توانید ارسال پیامک را شروع کنید.
+        </span>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="  h-100   package-full">
+  <div class="container ">
+    <div class="didar-package row row-cols-1 row-cols-lg-5  ">
+      <div class="col  reveal fade-right" >
+        <div class=" p-1 text-didar">
+          <span class="d-block ">دیدار پیامک</span>
+        </div>
+
+      </div>
+      <div class="col reveal fade-top " >
+        <div class="p-1 price-didar">
+          <span class="d-block name-package">پکیج پایه</span>
+          <span class="d-block price-package">49 هزارتومان</span>
+          <div class="text-center btn-didar">
+            <a href="Price.html">
+              <button class="btn-registration">ثبت نام</button>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col reveal fade-bottom " >
+        <div class=" p-1 price-didar">
+               <span class="d-block name-package">
+پکیج اقتصادی
+        </span>
+          <span class="d-block price-package">99 هزارتومان</span>
+          <div class="text-center btn-didar">
+            <a href="Price.html">
+              <button class="btn-registration">ثبت نام</button>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col reveal fade-top " >
+        <div class=" p-1 price-didar">
+          <span class="d-block name-package">پکیج شرکتی</span>
+          <span class="d-block price-package">199 هزارتومان</span>
+          <div class="text-center btn-didar">
+            <a href="Price.html">
+              <button class="btn-registration">ثبت نام</button>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col reveal fade-bottom" >
+        <div class=" p-1 price-didar">
+           <span class="d-block name-package">
+پکیج تجاری</span>
+          <span class="d-block price-package">399 هزارتومان</span>
+          <div class="text-center btn-didar">
+            <a href="Price.html">
+              <button class="btn-registration">ثبت نام</button>
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+<div class="table-didar  reveal fade-top">
+  <div class="container p-xl-5">
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col" class="table-xx"></th>
+        <th scope="col"  class="table-xx">پایه</th>
+        <th scope="col" class="table-xx">اقتصادی</th>
+        <th scope="col" class="table-xx">شرکتی</th>
+        <th scope="col" class="table-xx">تجاری</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row"class="table-yy" >پیامک هدیه</th>
+        <td>۵۰۰ پیامک هدیه</td>
+        <td>۲۰۰۰ پیامک هدیه</td>
+        <td>۸۰۰ پیامک هدیه</td>
+        <td>۳۰۰۰ پیامک هدیه</td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">تعرفه هر پیامک</th>
+        <td>۲۱.۴ تومان</td>
+        <td>۲۰ تومان</td>
+        <td>۱۸.۳ تومان</td>
+        <td>۱۶.۹ تومان</td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">پیامک هدیه</th>
+        <td>۵۰۰ پیامک هدیه</td>
+        <td>۲۰۰۰ پیامک هدیه</td>
+        <td>۸۰۰ پیامک هدیه</td>
+        <td>۳۰۰۰ پیامک هدیه</td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">تعرفه پیامک BTS</th>
+        <td>۲۷.۵ تومان</td>
+        <td>۲۵.۷ تومان</td>
+        <td>۲۳.۵ تومان</td>
+        <td>۲۱.۷ تومان</td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">تعرفه پیام صوتی</th>
+        <td>ندارد</td>
+        <td>102 تومان</td>
+        <td>94 تومان</td>
+        <td>87 تومان</td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک به لیست سیاه</th>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">خط خدماتی </th>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک حاوی لینک</th>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک تکی</th>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک از فایل متنی</th>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک انبوه</th>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال پیامک زماندار</th>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال کلمات کلیدی</th>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="table-yy">ارسال به خارج از ایران</th>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-x-lg xx-table"></i></td>
+        <td><i class="bi bi-check-lg check-table"></i></td>
+      </tr>
+      <tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+<div class="Warranty-service reveal fade-zoom">
+  <div class="container ">
+    <div class="Warranty">
+
+      <div class="Warranty_header">
+        <h5>
+          گارانتی کیفیت سرویس + ضمانت بازگشت وجه
+        </h5>
+      </div>
+
+      <div class="text-center"> <span class="d-inline-block"><i class="bi bi-cursor-fill"></i></span></div>
+
+      <div class="warranty_cop">
+        <span>با خیال آسوده سامانه پیامک مورد نظرتان را انتخاب کنید، پنل اس ام اس ما دارای 30 روز گارانتی بازگشت وجه است و در صورتی که مشکلی وجود داشته باشد، می‌توانید از درخواست عودت وجه استفاده کنید.</span>
+      <span>در آخر این نکته را فراموش نکنید؛ افرادی که محصولات برندهای معتبر همانند Apple, Benz, Adidas, Toyota, Beats,… را خریداری می‌کنند هزینه را قربانی کیفیت نکرده‌اند و کیفیت دریافتی آنان از محصول با کیفیت دریافتی از محصولات چینی یا کره‌ای قابل مقایسه نیست.قیمت پنل اس ام اس </span>
+      </div>
+
+      <div class="warranty_btn">
+
+        <div class="container">
+          <div class="row warranty_button  ">
+            <div class="col-lg-6 col-sm-1 btn-lft ">
+              <a href="Price.html">
+                <button class="btn-price-warranty">
+                  قیمت پنل اس ام اس
+                </button>
+              </a>
+
+            </div>
+            <div class="col-lg-6 col-sm-1 btn-rght ">
+              <a href="Price.html">
+                <button class="btn-shoping-warranty">
+                  خرید سامانه پیامک
+                </button>
+              </a>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<div class="questions reveal fade-bottom">
+  <div class="container">
+
+
+
+    <div class="header-mid-text">
+      <span class="d-block">سوالات متداول</span>
+    </div>
+    <div class="text-center">
+      <span class="d-inline-block">
+        <i class="bi bi-cursor-fill"></i>
+      </span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="accordion" id="accordionExample">
+      <div class="questions_box">
+        <h2 class="accordion-header questions_text" id="headingOne">
+          <div  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            تفاوت قیمت پنل اس ام اس (پکیج‌های موجود در سایت) برای چیست؟
+          </div>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body questions_text_hidden">
+            تفاوت اصلی پکیج‌ها، تعرفه ارسال پیامک و امکانات موجود در هر بسته است که در همین صفحه می‌توانید امکانات موجود در هر بسته را مقایسه نمایید.
+
+           </div>
+        </div>
+      </div>
+      <div class=" questions_box">
+        <h2 class="accordion-header questions_text" id="headingTwo">
+          <div class=" collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            بهترین پکیج سامانه پیامکی کدام است؟
+          </div>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body questions_text_hidden">
+            اگر قصد دارید به صورت حرفه‌ای پیامک تبلیغاتی ارسال نمایید یا می‌خواهید به تمام امکانات سامانه دسترسی داشته باشید و محدودیتی وجود نداشته باشد پنل تجاری را تهیه نمایید، در غیر این صورت می‌توانید پنل شرکتی یا اقتصادی را تهیه کنید.
+          </div>
+        </div>
+      </div>
+      <div class=" questions_box">
+        <h2 class="accordion-header questions_text" id="headingThree">
+          <div class="collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            آیا در همه پنل ها می‌توان به بلک لیست، پیام ارسال کرد؟
+          </div>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body questions_text_hidden">
+            خیر. در پنل پایه قابلیت ارسال پیامک به شماره‌های مسدود و بلک لیست وجود ندارد بنابراین برای ارسال پیامک از طریق وب‌سرویس این پنل توصیه نمی‌شود.لازم به ذکر است هزینه پنل پیامک فقط یک مرتبه توسط شما پرداخت می‌شود بنابراین بهتر است پکیج‌های حرفه‌ای را تهیه کنید.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+
+  <div class="container">
+    <div class="row h-100 footer-top text-center">
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <div class="footer_secend">
+          <img class="logo-footer" src="img/logofooter%20(1).png">
+          <span class="d-block caption-footer" >
+لورم ایپسوم یا طرح‌نما  به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+                    </span>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6  col-md-6 part-footer" >
+                    <span class="d-block title-li">
+                      دسترسی سریع
+                    </span>
+        <ul class="wrapper">
+          <li><a href="Price.html">راهنمای خرید</a></li>
+          <li><a href="Price.html">سوالات متداول</a></li>
+          <li><a href="Price.html">قوانین و مقررات</a></li>
+          <li><a href="Price.html">سفارش اختصاصی</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6 col-md-6 part-footer" >
+                     <span class="d-block title-li">
+                      دسترسی سریع
+                      </span>
+        <ul class="wrapper">
+          <li><a href="Price.html">امکانات</a></li>
+          <li><a href="Price.html">تعرفه ها</a></li>
+          <li><a href="Price.html">تماس با ما</a></li>
+          <li><a href="Price.html">درباره ما</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <span class="d-block title-symbol">نشان ها</span>
+        <img class="symbol-pic" src="img/namad.png">
+        <span class="d-block symbol-cap">این نشان فاقد اعتبار بوده
+
+و صرفا جنبه تزئینی دارد.</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="media">
+    <div class="container">
+      <div class="media-icon text-center">
+        <i class="bi bi-instagram instagram"></i>
+        <i class="bi bi-whatsapp whatsapp"></i>
+        <i class="bi bi-telegram telegram"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="end">
+                <span class="d-block end-text">
+                  ساخته شده توسط Z.Miyar
+                </span>
+
+  </div>
+
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short "></i></button>
+
+
+<div class="end-navbar d-lg-none d-md-none w-100;">
+  <div class="container">
+
+    <div class="row  end-nav text-center">
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-shop end-icon">
+
+        </i>
+        <span class="d-block end-description">فروشگاه</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-heart end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">علاقه مندی</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-bag end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">سبد خرید من</span>
+      </div>
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-person end-icon">
+
+        </i>
+        <span class="d-block end-description">حساب کاربری من</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="js/price.js"></script>
+
+</body>
+</html>

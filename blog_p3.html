@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fa" dir="rtl" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    چگونه تیکت پشتیبانی ارسال کنید؟</title>
+  <link rel="stylesheet" href="css/blog_p3.css">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+
+<div class="main_header fixed-top  w-100 shadow-sm bg-white rounded m-0">
+  <div class="container" style="    max-width: 1438px;">
+    <div class="row">
+
+
+
+      <div class="col-lg-2 col-6 col-sm-6 col-md-6 order-lg-0 order-1" >
+        <div class="main_header_right text-center">
+          <img class="main_header_right_img"  src="img/main_header_right.png"/>
+        </div>
+      </div>
+
+
+      <div class=" col-3 menu-right-sm col-sm-3 col-md-3 order-lg-1 order-0 d-lg-none  d-block" onclick="closemenu()">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="col-lg-8 d-lg-block d-none">
+        <div class="main_header_middle">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">پنل پیامک دیدار</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="about%20us.html">درباره ما</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link on" href="blog.html">بلاگ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">تماس با ما</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+
+
+      <div class="col-lg-2 col-3 col-sm-3 col-md-3 order-2 order-lg-2">
+        <div class="main_header_left row h-100">
+
+          <div class="col-lg-4 col-sm-12 cart text-center p-0">
+            <a href="cart.html" class="d-block w-100 h-100" onclick="opencart()">
+              <i class="bi bi-cart3 icon_cart position-relative"><span class="blue"> 0</span></i>
+
+              <span class="value d-block d-lg-block d-none"> 0</span>
+              <span class="currency d-block d-lg-block d-none">تومان</span>
+            </a>
+          </div>
+
+
+          <div class="col-lg-2 d-lg-block d-none  Comparison  p-0 text-center">
+            <a HREF="Comparison.html" class="d-block"><i class="bi bi-shuffle position-relative"><span class="blue"> 0</span></i></a>
+          </div>
+
+
+          <div class="col-lg-6 d-lg-block d-none Account p-0">
+            <a class="d-block"><span  onclick="openlist()">ورود / ثبت نام</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="cart_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div  class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">سبد خرید</span>
+      <a href="#" class="closemenu position-relative"   onclick="closecart()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <i class="bi bi-cart-x icon-cart-left"></i>
+      <h3 class="empty_cart_left">هیچ محصولی در سبد خرید نیست.</h3>
+
+
+      <div class="text-center btn-shop">
+        <a href="Price.html">
+          <button class="go_shop_left">بازگشت به فروشگاه</button>
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+<div id="Register_left_menu" class="Register_lft_menu  position-fixed w-100 h-100 d-flex"  >
+  <div id="register-bg" class="register-bg position-fixed h-100 bg-white flex-row">
+    <div class="heading">
+      <span class=" title_register_left">ورود</span>
+      <a href="#" class="closemenu position-relative"   onclick="closeRegister()">
+        <i class="bi bi-x position-absolute"></i>
+        بستن
+      </a>
+    </div>
+    <div class="bordr_eee"></div>
+
+    <div class="container">
+      <div class="login">
+
+                        <span class="d-block email_set_rl">نام کاربری یا آدرس ایمیل
+                          <span class="redster">*</span>
+                         </span>
+
+        <div class="input-email_rl">
+          <input type="email" class="email_input_rl form-control">
+        </div>
+        <span class="d-block email_set_rl">رمز عبور
+                       <span class="redster" >*</span>
+                       </span>
+
+        <div class="input-email_rl position-relative">
+          <input type="password" class="email_input_rl  form-control " name="password" id="password" />
+          <i class="bi bi-eye-slash icon_pass_rl position-absolute" id="togglePassword"></i>
+
+
+        </div>
+
+
+        <div class="btn-log_rl">
+          <button class="register_login_rl w-100">
+            عضویت
+          </button>
+        </div>
+        <label class="remember_rl">
+          <input type="checkbox" checked="checked" name="remember" > مرا به خاطر بسپار
+        </label>
+        <span class="psw_rl"> <a  class="apas_rl" href="lost-password.html" >رمز عبور را فراموش کرده اید؟</a></span>
+
+
+      </div>
+    </div>
+
+    <div class="bordr_eee"></div>
+    <div class="create-account-question">
+      <i class="bi bi-person create-account"></i>
+      <p>هنوز حساب کاربری ندارید؟</p>
+      <a href="# " class=" create-account-button d-block   ">ایجاد حساب کاربری</a>
+
+    </div>
+
+    <div class="bordr_eee"></div>
+
+  </div>
+
+
+
+</div>
+
+
+
+<div id="mobile-menu-back" class="mobile-menu-back bg-secondary position-fixed w-100 h-100 d-flex">
+
+  <div id="mobile-menu-box" class="mobile-menu-box position-fixed h-100 bg-white flex-row">
+    <div class="search-mobil">
+
+      <div class="position-relative">
+        <input class="form-control" type="search" placeholder="جستوجو برای مطالب " aria-label="Search">
+        <i class="bi bi-search position-absolute search-icon"></i>
+      </div>
+
+
+
+
+      <div class="row list-mobile m-0">
+        <div  class="col-6 list-navbar btnlist active1" id="list-navbar" onclick="openlist()" >
+          <a  class="text-decoration-none text-center ">فهرست</a>
+        </div>
+        <div class="col-6 Grouping btnlist" id="Grouping" onclick="openguorp()">
+          <a class="text-decoration-none text-center">دسته بندی ها</a>
+        </div>
+      </div>
+
+      <div class="list-navbar-open w3-animate-opacity opens"  id="list-navbar-open" >
+        <ul class="list-open">
+          <li class="item-open">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open">
+            <a href="blog.html">بلاگ</a>
+          </li>
+
+          <li class="item-open">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+          <li class="item-open">
+            <a href="#">
+              <i class="bi bi-heart"></i>
+              علاقه مندی
+
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="Comparison.html">
+              <i class="bi bi-shuffle"></i>
+
+              مقایسه
+            </a>
+          </li>
+          <li class="item-open">
+            <a href="user_account.html">
+              <i class="bi bi-person"></i>
+              ورود/ثبت نام
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="Grouping-open w3-animate-opacity" id="Grouping-open" >
+        <ul class="list-open-Grouping" >
+          <li class="item-open-Grouping">
+            <a href="index.html">پنل پیامک دیدار</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="Price.html">امکانات و تعرفه خرید پنل پیامکی</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="about%20us.html">درباره ما</a>
+          </li>
+          <li class="item-open-Grouping">
+            <a href="blog.html">بلاگ</a>
+          </li>
+
+          <li class="item-open-Grouping">
+            <a href="contactus.html">تماس با ما</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="flex-row" style="flex-grow: 1" onclick="closemenu()"></div>
+
+</div>
+
+
+
+
+
+<div class="header-top w-100 h-100">
+   <span>
+    بلاگ
+  </span>
+  <div class="header_caption">
+    <a href="index.html" class="cop_header">
+      خانه /
+    </a>
+    <a href="blog.html" class="cop_header">
+      بلاگ
+    </a>
+  </div>
+</div>
+
+
+<div class="blog-page1">
+
+  <div class="row p-0 m-0">
+    <div class="col-lg-9 col-md-12 col-sm-12 right">
+
+      <div class="btn-blog">
+        <span>بلاگ</span>
+      </div>
+      <h4 class="name_top">
+        چگونه تیکت پشتیبانی ارسال کنید؟</h4>
+      <div class="Information">
+
+
+            <span class=" inf_item ">
+              <span>
+              ارسال
+            </span>
+            </span>
+        <span class=" inf_item ">
+              <span>
+               توسط
+            </span>
+            </span>
+        <span class=" inf_item">
+              <i class="bi bi-person-circle"></i>
+            </span>
+        <span class=" inf_item">
+              <span>
+                <a class="text-decoration-none link-acc" href="#">See5irspad</a>
+              </span>
+            </span>
+      </div>
+      <div class="img_page1 position-relative">
+        <img src="img/333.jpg">
+        <div class="date">
+          <span class="d-block days"> 06</span>
+          <span class="d-block month">بهمن</span>
+        </div>
+      </div>
+
+
+
+      <div class="khadamat">
+
+
+
+        <h5 class="subject">تیکت پشتیبانی چیست؟</h5>
+        <p class="Description">
+          تیکت (Ticket) اصطلاح بین المللی پرسیدن سوال کتبی در قالب یک نامه رسمی از پشتیبانی است. که مشتری درخواست خود را در قالب تیکت پشتیبانی و یک نامه رسمی ارسال می کند و کارشناسان پشتیبانی دیدار موضوع را بررسی کرده و از طریق سیستم پشتیبانی به کاربر پاسخ می‌دهد. بعضی از سیستم‌های حرفه‌ای پشتیبانی  بعد از پاسخ به تیکت کاربر، کاربر را از طریق ارسال پیامک مطلع می‌کنند.
+        </p>
+
+        <h5 class="subject">مزایای استفاده از تیکت پشتیبانی</h5>
+
+        <ul class="Description_ul">
+          <li>سابقه درخواست‌ها از بین نمی‌رود.</li>
+          <li>مشتری یا کاربر مجبور به تکرار مداوم درخواست نمی‌باشد.</li>
+          <li>قابلیت ردیابی تمامی صحبت‌ها وجود دارد، چون تمامی پاسخ‌ها مکتوب است.</li>
+          <li>بعضی موارد پشیبانی نیاز به بررسی داشته، به خصوص موارد برنامه نویسی و وب سرویس را نمی‌توان در ان واحد پاسخ داد.</li>
+          <li>بعضی موراد برای ارسال پیامک نیاز به پیگیری از سمت اپراتور داشته و بعد از تماس اپراتور باید به شما اطلاع رسانی شود.</li>
+        </ul>
+
+
+
+      </div>
+
+
+
+
+
+      <div class="borderbottom"></div>
+
+      <div class="social_media1">
+        <a class="media1">
+          <i class="bi bi-facebook   media1face d-block" ></i>
+        </a>
+        <a class="media1">
+          <i class="bi bi-twitter media1twit d-block" ></i>
+        </a>
+        <a class="media1">
+          <i class="bi bi-pinterest media1pint  d-block" ></i>
+        </a>
+        <a class="media1">
+          <i class="bi bi-linkedin  media1link d-block" ></i>
+        </a>
+        <a class="media1">
+          <i class="bi bi-telegram  media1tel d-block" ></i>
+        </a>
+
+
+
+      </div>
+
+
+
+
+
+
+      <div class="page">
+        <div class="row p-0 m-0">
+          <div class="col-5 previous-page">
+            <a href="blog_p2.html" class="d-block Title_page-color position-relative">
+
+                      <span class="label_previous-page d-block">
+                   جدید تر
+                     </span>
+              <span class="Title_page_right d-sm-none d-md-none d-lg-block d-none">
+                  بهترین روش برای ساخت پنل پیامکی چیست؟
+                     </span>
+              <span class="position-absolute inpr">
+                    <button class="previous-page-icon">
+                    <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </span>
+
+
+            </a>
+          </div>
+          <div class="col-2 icongraid">
+            <a href="blog.html">
+              <i class="bi bi-grid " data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="بازگشت به لیست"></i>
+            </a>
+          </div>
+          <div class="col-5 next-page">
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="borderbottom"></div>
+
+      <div class="Comments">
+        <h3 class="comment_header">دیدگاهتان را بنویسید</h3>
+        <span class="email_note">نشانی ایمیل شما منتشر نخواهد شد.</span>
+        <span class="required-field-message">
+            بخش‌های موردنیاز علامت‌گذاری شده‌اند
+            <span class="required">*</span>
+          </span>
+
+
+        <div class="mb-3">
+          <label class="viewpoint">
+            دیدگاه
+            <span class="required">*</span>
+          </label>
+
+          <textarea class="form-control" id="viewpoint" rows="10"></textarea>
+        </div>
+
+
+
+        <form class="row ">
+
+          <div class="col-6">
+            <label for="inputname" >
+              نام
+              <span class="required">*</span>
+            </label>
+            <input type="name" class="form-control" id="inputname" >
+          </div>
+          <div class="col-6">
+            <label for="inputemail" >
+              ایمیل
+              <span class="required">*</span>
+            </label>
+            <input type="email" class="form-control" id="inputemail" >
+          </div>
+
+        </form>
+        <label for="inputweb" class="form-label">وب‌ سایت</label>
+        <input type="nameweb" id="inputweb" class="form-control">
+
+        <label class="remember">
+          <input type="checkbox" checked="checked" name="remember" >
+          ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+        </label>
+
+        <div class="send-btn">
+          <button class="send-comment">فرستادن دیدگاه</button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="col-lg-3 d-sm-none d-md-none d-lg-block left">
+      <span class="title_list_left">آخرین مطالب</span>
+      <ul class="woodmart-recent-posts-list">
+        <li class="item_left">
+          <div class="row">
+            <div class="col-3 img_recent">
+              <a href="#">
+                <img width="75" height="60" src="img/page1.jpg">
+              </a>
+            </div>
+            <div class="col-9 recent-posts-info">
+
+              <a class="text-decoration-none" href="blog_p1.html">
+                <span class="title_resent d-block">
+                  اجاره سامانه پیام کوتاه یا خرید پنل اس ام اس؟
+                </span>
+              </a>
+              <time class="recent_post_time">بهمن 6, 1400</time>
+              <a class="recent-posts-comment text-decoration-none" href="#" >بدون دیدگاه</a>
+
+
+            </div>
+            <div class="borderbottom"></div>
+
+          </div>
+
+
+        </li>
+
+        <li class="item_left">
+          <div class="row">
+            <div class="col-3 img_recent">
+              <a href="#">
+                <img width="75" height="60" src="img/blog-2.jpg">
+              </a>
+            </div>
+            <div class="col-9 recent-posts-info">
+
+              <a class="text-decoration-none" href="blog_p2.html">
+                <span class="title_resent d-block">
+                  بهترین روش برای ساخت پنل پیامکی چیست؟
+                </span>
+              </a>
+              <time class="recent_post_time">بهمن 6, 1400</time>
+              <a class="recent-posts-comment text-decoration-none" href="#" >بدون دیدگاه</a>
+
+
+            </div>
+            <div class="borderbottom"></div>
+
+          </div>
+
+
+        </li>
+
+        <li class="item_left">
+          <div class="row">
+            <div class="col-3 img_recent">
+              <a href="#">
+                <img width="75" height="60" src="img/blog-img3.jpg">
+              </a>
+            </div>
+            <div class="col-9 recent-posts-info">
+
+              <a class="text-decoration-none" href="blog_p3.html">
+                <span class="title_resent d-block">
+
+                  چگونه تیکت پشتیبانی ارسال کنید؟
+                </span>
+              </a>
+              <time class="recent_post_time">بهمن 6, 1400</time>
+              <a class="recent-posts-comment text-decoration-none" href="#" >بدون دیدگاه</a>
+
+
+            </div>
+
+
+          </div>
+
+
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+
+  <div class="container">
+    <div class="row h-100 footer-top text-center">
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <div class="footer_secend">
+          <img class="logo-footer" src="img/logofooter%20(1).png">
+          <span class="d-block caption-footer" >
+لورم ایپسوم یا طرح‌نما  به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+                    </span>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6  col-md-6 part-footer" >
+                    <span class="d-block title-li">
+                      دسترسی سریع
+                    </span>
+        <ul class="wrapper">
+          <li><a href="blog_p3.html">راهنمای خرید</a></li>
+          <li><a href="blog_p3.html">سوالات متداول</a></li>
+          <li><a href="blog_p3.html">قوانین و مقررات</a></li>
+          <li><a href="blog_p3.html">سفارش اختصاصی</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 col-6 col-md-6 part-footer" >
+                     <span class="d-block title-li">
+                      دسترسی سریع
+                      </span>
+        <ul class="wrapper">
+          <li><a href="blog_p3.html">امکانات</a></li>
+          <li><a href="blog_p3.html">تعرفه ها</a></li>
+          <li><a href="blog_p3.html">تماس با ما</a></li>
+          <li><a href="blog_p3.html">درباره ما</a></li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-sm-12 col-12 col-md-6 part-footer" >
+        <span class="d-block title-symbol">نشان ها</span>
+        <img class="symbol-pic" src="img/namad.png">
+        <span class="d-block symbol-cap">این نشان فاقد اعتبار بوده
+
+و صرفا جنبه تزئینی دارد.</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="media">
+    <div class="container">
+      <div class="media-icon text-center">
+        <i class="bi bi-instagram instagram"></i>
+        <i class="bi bi-whatsapp whatsapp"></i>
+        <i class="bi bi-telegram telegram"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="end">
+                <span class="d-block end-text">
+                  ساخته شده توسط Z.Miyar href="blog_p3.html"
+                </span>
+
+  </div>
+
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short "></i></button>
+
+
+<div class="end-navbar d-lg-none d-md-none w-100;">
+  <div class="container">
+
+    <div class="row  end-nav text-center">
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-shop end-icon">
+
+        </i>
+        <span class="d-block end-description">فروشگاه</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-heart end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">علاقه مندی</span>
+      </div>
+      <div class="col-sm-3  col-3">
+        <i class="bi bi-bag end-icon">
+          <span class="blue-circle"> 0</span>
+        </i>
+        <span class="d-block end-description">سبد خرید من</span>
+      </div>
+      <div class="col-sm-3 col-3">
+        <i class="bi bi-person end-icon">
+
+        </i>
+        <span class="d-block end-description">حساب کاربری من</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="js/blog_p3.js"></script>
+</body>
+</html>
