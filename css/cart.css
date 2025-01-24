@@ -145,7 +145,17 @@ input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
 .go_shop{width: 162px;height: 47px;color: white;font-size: 15px ;font-family: "B Yekan";background-color: rgb(231 76 60);border: 2px solid rgb(231 76 60); border-radius: 30px}
 .go_shop:hover{    background-color: rgb(235 105 92);border: 2px solid rgb(235 105 92);}
 
-
+@media (min-width: 1610px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
+  .page-news{margin: 15px 45px !important;}
+  .header-top{margin-top: 1px;margin-bottom: 60px;height: 172px;}
+  .btn-shop{padding-bottom: 80px}
+  .item-level{margin-right: 451px}
+  .header-cart{padding-top: 128px;display: block ;padding-bottom: 80px;}
+  .cart-empty i{font-size: 215px ;}
+  .empty_cart_header{font-size: 45px}
+}
 
 @media (max-width: 1600px){
   .main_header_right_img{width:175px;height: 80px;}

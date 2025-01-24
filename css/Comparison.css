@@ -147,6 +147,17 @@ input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
 
 
 
+@media (min-width: 1610px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
+  .page-news{margin: 15px 45px !important;}
+  .header-top{margin-top: 1px;margin-bottom: 60px}
+  .btn-shop{padding-bottom: 80px}
+  .header-top span{padding-top: 128px; }
+  .cart-empty i{font-size: 215px ;}
+  .empty_cart_header{font-size: 45px}
+
+}
 @media (max-width: 1600px){
   .main_header_right_img{width:175px;height: 80px;}
   .c1{padding: 12px 77px}

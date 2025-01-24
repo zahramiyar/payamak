@@ -144,7 +144,16 @@ input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
 
 
 
+@media (min-width: 1610px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
 
+  .questions_box{margin: 11px 52px;}
+  .header{padding-top: 180px;padding-bottom: 220px}
+  .img-phone img{position: absolute;    bottom: 128px;right: 367px;}
+  .bg-full{height: 400px;margin-top: 43px}
+
+}
 
 
 @media (max-width: 1600px){

@@ -156,7 +156,25 @@ input:focus{box-shadow: unset!important; border: 2px solid #b4b4b4!important;}
 
 
 
+@media (min-width: 1610px){
+  .main_header_right_img{width:175px;height: 80px;}
+  .c1{padding: 12px 77px}
+  .page-news{margin: 15px 45px !important;}
+  .header-top{margin-top:1px;margin-bottom: 60px}
+  .login{margin: 0 83px!important;}
+  .btn-login{padding: 10px 20px;}
+  .Register_right h4{padding: 20px}
+  .email_set{padding:  10px 20px;}
+  .input-email{padding:  10px 20px;}
+  .btn-log{padding: 30px 20px;}
+  .Register_left_cap{padding:  12px 1px 40px;text-align: center}
+  .Membership{margin: 40px 183px;}
+  .remember{padding: 0 20px}
+  .psw{padding-right: 83px;}
 
+
+
+}
 
 
 
